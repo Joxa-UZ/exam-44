@@ -30,10 +30,6 @@
     line-height: 187.5%;
     color: #525252;
 }
-.owl-item{
-    // width: 338px;
-    // margin-right: 12px!important;
-}
 .owl-dots{
     display: none;
 }
@@ -169,9 +165,6 @@
         margin: 0;
         width: 0;
     }
-    .active{
-        // max-width: 0;
-    }
     .owl-stage{
         margin-left: 0;
     }
@@ -192,26 +185,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .owl-item{
-        // overflow-x: hidden;
-    }
-    .item{
-        // max-width: 299px;
-    }
     .owl-nav{
         top: 390px!important;
     }
 }
 
 @media only screen and (max-width: 700px) {
-    .owl-item{
-        // width: 400px!important;
-    }
 
     .owl-stage{
         margin-left: 0;
     }
-}
-
-.carusel .containers{
 }
