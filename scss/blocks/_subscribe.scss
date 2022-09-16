@@ -1,0 +1,116 @@
+.subscribe{
+    margin-bottom: 148px;
+}
+.subscribe-top{
+    max-width: 545px;
+    margin-bottom: 74px;
+}
+.subscribe-title{
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187.5%;
+}
+.subscribe-text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #525252;
+}
+
+.subscribe-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 42px;
+    padding-left: 50px;
+    background-color: #000;
+    border-radius: 15px;
+}
+.subscribe-info{
+    max-width: 520px;
+}
+.subscribe-info-title{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+.subscribe-info-text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+.subscribe-input{
+    width: 386px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+.subscribe-button{
+    margin-left: -100px;
+    padding-top: 8px;
+    padding-right: 14px;
+    padding-bottom: 9px;
+    padding-left: 22px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #DC7000;
+    border: none;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 900px) {
+    .subscribe-wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .subscribe-form{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .subscribe-info-title{
+        font-size: 30px;
+    }
+    .subscribe-info-text{
+        font-size: 15px;
+    }
+    .subscribe-input{
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .subscribe-info-title{
+        font-size: 20px;
+    }
+    .subscribe-input{
+        width: 266px;
+    }
+    .subscribe-input::placeholder{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .subscribe-wrapper{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .subscribe-input{
+        width: 250px;
+    }
+}

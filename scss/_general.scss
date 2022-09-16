@@ -18,6 +18,9 @@ img{
   display: block;
   height: auto;
 }
+a{
+  text-decoration: none;
+}
 
 body{
   display: flex;
@@ -25,7 +28,7 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto", "Arial", sans-serif; */
+  font-family: "Poppins", "Arial", sans-serif;
   /* font-size: 16px; */
   /* font-weight: 400; */
   /* line-height: var(--main-line-height); */

@@ -1,0 +1,95 @@
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+}
+.header-top-link{
+    display: flex;
+    align-items: center;
+}
+address{
+    display: flex;
+    align-items: center;
+    margin-bottom: -3px;
+}
+.header-top-link::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin-right: 10px;
+    background-image: url("../images/location-icon.svg");
+    background-repeat: no-repeat;
+}
+.header-top-link-second::before{
+    margin-left: 100px;
+    background-image: url("../images/tel-icon.svg");
+}
+.bg-dark{
+    background-color: #E47500!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-link{
+    text-decoration: none;
+    color: #DC7000;
+}
+.btn-link:hover{
+    color: #DC7000!important;
+    background-color: #fff;
+}
+.btn{
+    color: #DC7000;
+}
+.btn:hover{
+    color: #DC7000!important;
+    background-color: #fff!important;
+    border: 1.1px solid transparent;
+}
+.btn:active{
+    color: #DC7000!important;
+    background-color: #fff!important;
+}
+
+.nav-item{
+    margin-right: 80px;
+}
+.nav-item:last-child{
+    margin-right: 70px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1340px;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:active{
+    border: none;
+}
+.navbar-toggler-icon{
+    background-image: url("../images/hamburger.svg");
+}
+.nav-link-home{
+    display: flex;
+    align-items: center;
+}
+.nav-link-home::before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: block;
+    margin-right: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 991px) {
+    .nav-link-home::before{
+        display: none;
+    }
+}

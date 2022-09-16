@@ -1,0 +1,142 @@
+.office{
+    padding-top: 83px;
+}
+.office-box{
+    padding-left: 35px;
+}
+.office-title-box{
+    max-width: 826px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.office-title{
+    margin: 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 187.5%;
+    text-align: center;
+    color: #222222;
+}
+.office-theme{
+    max-width: 545px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.office-theme-title{
+    margin: 0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187.5%;
+    color: #222222;
+}
+.office-text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #525252;
+}
+
+.office-img-box{
+    max-width: 934px;
+    position: relative;
+}
+.office-img-box::before{
+    content: "";
+    position: absolute;
+    top: calc(50% - 300px);
+    right: calc(50% - 540px);
+    z-index: -1;
+    width: 196px;
+    height: 154px;
+    display: block;
+    background-image: url("../images/dotted-group.svg");
+}
+.office-img{
+    z-index: 10;
+}
+
+@media only screen and (max-width: 1110px) {
+    .office-img-box{
+        width: 100%;
+        max-width: 750px;
+    }
+    .office-img{
+        width: 100%;
+        max-width: 750px;
+    }
+    .office-img-box::before{
+        top: calc(50% - 260px);
+        right: calc(50% - 450px);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .office-title-box{
+        margin-bottom: 92px;
+    }
+    .office-theme{
+        display: none;
+    }
+    .office-img-box{
+        width: 100%;
+        max-width: 550px;
+        margin-left: -55px;
+    }
+    .office-img{
+        width: 100%;
+        max-width: 550px;
+    }
+    .office-img-box::before{
+        width: 160px;
+        height: 120px;
+        top: calc(50% - 200px);
+        right: calc(50% - 350px);
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 648px) {
+    .office-title{
+        font-size: 16px;
+    }
+    .office-img-box{
+        width: 100%;
+        max-width: 350px;
+    }
+    .office-img{
+        width: 100%;
+        max-width: 350px;
+    }
+    .office-img-box::before{
+        width: 100%;
+        max-width: 80px;
+        top: calc(50% - 110px);
+        right: calc(50% - 200px);
+        // height: 62px;
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .office-title{
+        font-size: 14px;
+    }
+    .office-box{
+        padding-left: 0;
+    }
+    .office-img-box{
+        width: 100%;
+        max-width: 400px;
+    }
+    .office-img{
+        width: 100%;
+        max-width: 400px;
+    }
+    .office-img-box::before{
+        width: 100%;
+        max-width: 80px;
+        top: calc(50% - 100px);
+        right: calc(50% - 170px);
+    }
+}

@@ -4,10 +4,564 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template</title>
+  <title>Digital Agency</title>
+  
+  <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-
+  
+  <header class="site-header">
+    <div class="containers">
+      <div class="header-top d-md-flex align-items-center d-none d-sm-none pt-1 pb-1">
+        <address>
+          <a href="https://www.google.com/maps" target="blank" class="header-top-link text-dark">
+            Company Address type here
+          </a>
+        </address>
+        
+        <a href="tel:+9400000000" class="header-top-link header-top-link-second text-dark">
+          +94 000 00000
+        </a>
+      </div>
+    </div>
+    
+    <div class="header-under">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.svg" alt="logo" width="71" height="39">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active nav-link-home" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  About us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  Services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  News
+                </a>
+              </li>
+            </ul>
+            
+            <button type="button" class="btn btn-light">
+              Contact us
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  
+  <main class="site-main">
+    <section class="hero">
+      <div class="containers">
+        <div class="hero-box">
+          <div class="hero-info">
+            <div class="hero-title">
+              <span class="hero-first-title">
+                Digital Marketing
+              </span>
+              <h1 class="hero-big-title text-dark">
+                Work that we produce for our clients
+              </h1>
+            </div>
+            
+            <div class="hero-text-box">
+              <p class="hero-text text-dark">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+              </p>
+              
+              <button type="button" class="btn-danger hero-btn">
+                Get more details
+              </button>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img src="./images/home-image.png" width="675" height="590" alt="hero bg" class="hero-images">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="office">
+      <div class="containers">
+        <div class="office-box">
+          <div class="office-title-box">
+            <h2 class="office-title">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </h2>
+          </div>
+          
+          <div class="office-theme">
+            <h3 class="office-theme-title">
+              Lorem Ipsum
+            </h3>
+            <p class="office-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p>
+          </div>
+          
+          <div class="office-img-box">
+            <img class="office-img" src="./images/second-section-img.jpg" width="934" height="462" alt="workers in office" srcset="./images/second-section-img.jpg 1x, ./images/second-section-img@2x.jpg 2x">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="services">
+      <div class="containers">
+        <div class="services-wrapper">
+          <div class="services-wrapper-title">
+            <h2 class="services-title">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </h2>
+            <p class="services-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever been since the 1500s,
+            </p>
+          </div>
+          <ul class="services-box row">
+            <li class="services-box-item col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              Mobile Game Development
+            </li>
+            <li class="services-box-item col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              PC Game Development
+            </li>
+            <li class="services-box-item col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              PS4 Game Development
+            </li>
+            <li class="services-box-item col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              AR/VR Solutions
+            </li>
+            <li class="services-box-item col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              AR/ VR design
+            </li>
+            <li class="services-box-item col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              3D Modelings
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- <section class="carusel">
+      <div class="containers">
+        <div class="carusel-top">
+          <h2 class="carusel-top-title">
+            Lorem Ipsum
+          </h2>
+          <p class="carusel-top-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          </p>
+        </div>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <span class="carusel-little-title">
+            Lorem ipsum
+          </span>
+          
+          <h3 class="carusel-item-title">
+            Lorem Ipsum
+          </h3>
+          
+          <p class="carusel-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+          
+          <a href="#" class="carusel-item-link">
+            Read more
+          </a>
+        </div>
+        <div class="item">
+          <span class="carusel-little-title">
+            Lorem ipsum
+          </span>
+          
+          <h3 class="carusel-item-title">
+            Lorem Ipsum
+          </h3>
+          
+          <p class="carusel-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+          
+          <a href="#" class="carusel-item-link">
+            Read more
+          </a>
+        </div>
+        <div class="item">
+          <span class="carusel-little-title">
+            Lorem ipsum
+          </span>
+          
+          <h3 class="carusel-item-title">
+            Lorem Ipsum
+          </h3>
+          
+          <p class="carusel-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+          
+          <a href="#" class="carusel-item-link">
+            Read more
+          </a>
+        </div>
+        <div class="item">
+          <span class="carusel-little-title">
+            Lorem ipsum
+          </span>
+          
+          <h3 class="carusel-item-title">
+            Lorem Ipsum
+          </h3>
+          
+          <p class="carusel-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+          
+          <a href="#" class="carusel-item-link">
+            Read more
+          </a>
+        </div>
+        <div class="item">
+          <span class="carusel-little-title">
+            Lorem ipsum
+          </span>
+          
+          <h3 class="carusel-item-title">
+            Lorem Ipsum
+          </h3>
+          
+          <p class="carusel-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+          
+          <a href="#" class="carusel-item-link">
+            Read more
+          </a>
+        </div>
+        <div class="item">
+          <span class="carusel-little-title">
+            Lorem ipsum
+          </span>
+          
+          <h3 class="carusel-item-title">
+            Lorem Ipsum
+          </h3>
+          
+          <p class="carusel-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+          
+          <a href="#" class="carusel-item-link">
+            Read more
+          </a>
+        </div>
+        <div class="item">
+          <span class="carusel-little-title">
+            Lorem ipsum
+          </span>
+          
+          <h3 class="carusel-item-title">
+            Lorem Ipsum
+          </h3>
+          
+          <p class="carusel-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+          
+          <a href="#" class="carusel-item-link">
+            Read more
+          </a>
+        </div>
+      </div>
+      <div class="owl">
+        <span class="owl-prev"></span>
+        <span class="owl-next"></span>
+      </div>
+    </section> -->
+    
+    <section class="carusel">
+      <div class="containers">
+          <div class="carusel-top">
+            <h2 class="carusel-top-title">
+              Lorem Ipsum
+            </h2>
+            <p class="carusel-top-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            </p>
+          </div>
+        
+        <div class="owl-carousel owl-theme">
+      
+          <div class="item">
+            <span class="btn-items btn-grey carusel-little-title" href="#">Lorem ipsum</span>
+            <h3 class="item-title">Lorem Ipsum</h3>
+            <p class="item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <div class="d-flex justify-content-end">
+              <a class="btn-back d-flex align-items-center carusel-item-link" href="#">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <span class="btn-items btn-grey carusel-little-title" href="#">Lorem ipsum</span>
+            <h3 class="item-title">Lorem Ipsum</h3>
+            <p class="item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <div class="d-flex justify-content-end">
+              <a class="btn-back d-flex align-items-center carusel-item-link" href="#">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <span class="btn-items btn-grey carusel-little-title" href="#">Lorem ipsum</span>
+            <h3 class="item-title">Lorem Ipsum</h3>
+            <p class="item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <div class="d-flex justify-content-end">
+              <a class="btn-back d-flex align-items-center carusel-item-link" href="#">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <span class="btn-items btn-grey carusel-little-title" href="#">Lorem ipsum</span>
+            <h3 class="item-title">Lorem Ipsum</h3>
+            <p class="item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <div class="d-flex justify-content-end">
+              <a class="btn-back d-flex align-items-center carusel-item-link" href="#">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <span class="btn-items btn-grey carusel-little-title" href="#">Lorem ipsum</span>
+            <h3 class="item-title">Lorem Ipsum</h3>
+            <p class="item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <div class="d-flex justify-content-end">
+              <a class="btn-back d-flex align-items-center carusel-item-link" href="#">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <span class="btn-items btn-grey carusel-little-title" href="#">Lorem ipsum</span>
+            <h3 class="item-title">Lorem Ipsum</h3>
+            <p class="item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <div class="d-flex justify-content-end">
+              <a class="btn-back d-flex align-items-center carusel-item-link" href="#">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <span class="btn-items btn-grey carusel-little-title" href="#">Lorem ipsum</span>
+            <h3 class="item-title">Lorem Ipsum</h3>
+            <p class="item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <div class="d-flex justify-content-end">
+              <a class="btn-back d-flex align-items-center carusel-item-link" href="#">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <span class="btn-items btn-grey carusel-little-title" href="#">Lorem ipsum</span>
+            <h3 class="item-title">Lorem Ipsum</h3>
+            <p class="item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <div class="d-flex justify-content-end">
+              <a class="btn-back d-flex align-items-center carusel-item-link" href="#">Read more</a>
+              
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+    
+    <section class="projects">
+      <div class="containers">
+        <div class="projects-box">
+          <div class="projects-title-box">
+            <h2 class="projects-title">
+              Our Recent Projects
+            </h2>
+            <p class="projects-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            </p>
+          </div>
+          
+          <div class="row gy-4">
+            <div class="col-xl-4 col-lg-4">
+              <img src="./images/project1.jpg" width="382" height="223" alt="books someone" class="project-img" srcset="./images/project1.jpg 1x, ./images/project1@2x.jpg 2x">
+            </div>
+            <div class="col-xl-4 col-lg-4">
+              <img src="./images/project2.jpg" width="323" height="223" alt="books someone" class="project-img" srcset="./images/project2.jpg 1x, ./images/project2@2x.jpg 2x">
+            </div>
+            <div class="col-xl-4 col-lg-4">
+              <img src="./images/project3.jpg" width="382" height="223" alt="books someone" class="project-img" srcset="./images/project3.jpg 1x, ./images/project3@2x.jpg 2x">
+            </div>
+            <div class="col-xl-3 col-lg-3 chopilasan">
+              <img src="./images/project4.jpg" width="382" height="223" alt="books someone" class="project-img" srcset="./images/project4.jpg 1x, ./images/project4@2x.jpg 2x">
+            </div>
+            <div class="col-xl-4 col-lg-4 chopilasan">
+              <img src="./images/project5.jpg" width="382" height="223" alt="books someone" class="project-img" srcset="./images/project5.jpg 1x, ./images/project5@2x.jpg 2x">
+            </div>
+            <div class="col-xl-5 col-lg-5">
+              <img src="./images/project6.jpg" width="382" height="223" alt="books someone" class="project-img" srcset="./images/project6.jpg 1x, ./images/project6@2x.jpg 2x">
+            </div>
+          </div>
+          
+          
+          
+        </div>
+      </div>
+    </section>
+    
+    <section class="group">
+      <div class="containers">
+        <div class="group-box">
+          <img class="group-img" src="./images/group.jpg" width="651" height="488" alt="team group members" srcset="./images/group.jpg 1x, ./images/group@2x.jpg 2x">
+          
+          <div class="group-info">
+            <h2 class="group-title">
+              Lorem Ipsum is simply dummy 
+              text dummy text 
+            </h2>
+            <p class="group-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+            </p>
+            <p class="group-under">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            </p>
+            
+            <button type="button" class="btn-primary button text-white">Read more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="subscribe">
+      <div class="containers">
+        <div class="subscribe-box">
+          <div class="subscribe-top">
+            <h2 class="subscribe-title text-dark">
+              Lorem Ipsum
+            </h2>
+            <p class="subscribe-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            </p>
+          </div>
+          
+          <div class="subscribe-wrapper">
+            <div class="subscribe-info">
+              <h3 class="subscribe-info-title text-white">
+                Stay in the loop
+              </h3>
+              <p class="subscribe-info-text text-white">
+                Subscribe to receive the latest news and updates about TDA.
+                We promise not to spam you! 
+              </p>
+            </div>
+            
+            <form class="subscribe-form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+              
+              <label>
+                <input class="subscribe-input" type="email" placeholder="Enter email address" aria-label="Enter email address" name="your_email" required>
+              </label>
+              
+              <button type="submit" class="btn-danger subscribe-button text-white">Continue
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="site-footer">
+    <div class="containers">
+      <div class="footer-box">
+        <ul class="footer-top row gx-xl-4">
+          <li class="col-xl-5 col-lg-5">
+            <a href="./index.html">
+              <img class="footer-logo" src="./images/logo.svg" width="71" height="39" alt="logo">
+            </a>
+            
+            <p class="footer-text text-white">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            </p>
+            
+            <span class="footer-email text-white">
+              @Company.com
+            </span>
+          </li>
+          <li class="col-xl-2 col-lg-3">
+            <ul class="footer-about">
+              <li class="footer-about-item">
+                <a href="#" class="footer-about-link">
+                  About us
+                </a>
+              </li>
+              <li class="footer-about-item">
+                <a href="#" class="footer-about-link">
+                  Company
+                </a>
+              </li>
+              <li class="footer-about-item">
+                <a href="#" class="footer-about-link">
+                  Portfolio
+                </a>
+              </li>
+              <li class="footer-about-item">
+                <a href="#" class="footer-about-link">
+                  Careers
+                </a>
+              </li>
+              <li class="footer-about-item">
+                <a href="#" class="footer-about-link">
+                  Contact us
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="col-xl-3 col-lg-4">
+            <span class="footer-about-link footer-span">
+              Contact us
+            </span>
+            <p class="footer-text text-white footer-contact-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            </p>
+            
+            <a href="tel:+90000000000" class="footer-about-link">+9000 0000 000</a>
+          </li>
+          <li class="col-xl-2 col-lg-12">
+            <ul class="footer-social">
+              <li class="footer-social-item"><a href="https://www.facebook.com/" target="blank"><img src="./images/facebook.svg" width="45" height="45" alt="facebook logo"></a></li>
+              <li class="footer-social-item"><a href="https://www.instagram.com/" target="blank"><img src="./images/instagram.svg" width="45" height="45" alt="instagram logo"></a></li>
+              <li class="footer-social-item"><a href="https://twitter.com/?lang=ru" target="blank"><img src="./images/twitter.svg" width="45" height="45" alt="twiiter logo"></a></li>
+              <li class="footer-social-item"><a href="https://www.linkedin.com/" target="blank"><img src="./images/linkedin.svg" width="45" height="45" alt="linkedin logo"></a></li>
+            </ul>
+          </li>
+        </ul>
+        
+        <span class="footer-line"></span>
+        <div class="footer-bottom">
+          <p class="footer-finish text-white">
+            Copyright ® 2021 Company All rights Rcerved
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js">
+  </script>
+  
+  <script src="./js/main.js"></script>
 </body>
 </html>
